@@ -1,3 +1,1 @@
-LDA #10
-STA $2000
-LDX $2000
+LDA #FF
