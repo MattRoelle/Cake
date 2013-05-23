@@ -9,6 +9,12 @@ opcodes = {
   :STX => 0x04,
   :STY => 0x05,
   :ADD => 0x06,
+  :SUB => 0x07,
+  :TAX => 0x08,
+  :TAY => 0x09,
+  :TXA => 0x0A,
+  :TYA => 0x0B,
+  :TXY => 0x0C
 }
 
 IO.readlines(infile).each do |line|
